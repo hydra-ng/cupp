@@ -1,0 +1,22 @@
+Source: cupp
+Section: unknown
+Priority: optional
+Maintainer: Joe <joe@rstrike.my.id>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+Homepage: https://github.com/Mebus/cupp
+Vcs-Browser: https://gitlab.com/hydra-ng/packages/cupp
+Vcs-Git: https://gitlab.com/hydra-ng/packages/cupp.git
+
+Package: cupp
+Architecture: any
+Multi-Arch: foreign
+Depends:
+ python3,
+ python3-all,
+ ${shlibs:Depends},
+ ${misc:Depends},
+Description: The most common form of authentication is the combination of a username
+ and a password or passphrase.

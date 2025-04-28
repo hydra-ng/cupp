@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+python3 /usr/local/Library/Applications/cupp/cupp.py "$@"

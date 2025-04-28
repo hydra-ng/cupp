@@ -1,0 +1,8 @@
+.bumpversion.cfg usr/local/Library/Applications/cupp/
+LICENCE usr/local/Library/Applications/cupp/
+README.md usr/local/Library/Applications/cupp/
+cupp.cfg usr/local/Library/Applications/cupp/
+cupp.py usr/local/Library/Applications/cupp/
+test_cupp.py usr/local/Library/Applications/cupp/
+CHANGELOG.md usr/local/Library/Applications/cupp/
+debian/helper-script/cupp usr/local/Library/bin/
